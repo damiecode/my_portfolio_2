@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="image-container">
+        <img
+          class="profile-picture"
+          src="./images/profile-picture.jpg"
+          alt="profile picture of Eniola"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="profile">
+          <section id="summary">
+            <h1>Eniola Yussuff</h1>
+            <h2 class="summary-heading">Professional Summary</h2>
+            <p class="summary-text">
+              Hi, I'm a junior developer learning frontend web development. I'm
+              passionate about building from scratch and growing my skills.
+              Right now, I'm focused on mastering HTML and CSS. This page is
+              part of my journey—thanks for stopping by, and feel free to check
+              back for updates!
+            </p>
+          </section>
+          <section class="skills">
+            <h2>Skills</h2>
+            <table class="skills-table">
+              <thead>
+                <tr>
+                  <th class="skills-col">Skills</th>
+                  <th class="proficiency-col">Proficiency</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HTML</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>⭐⭐⭐</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+        <div class="contact-form">
+          <section id="contact-form">
+            <h2>Contact Me</h2>
+            <div class="form-container">
+              <form action="/" method="post">
+                <div class="input-container fullname-box">
+                  <label class="label" for="fullname">Full Name</label>
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="e.g. Eniola Yussuff"
+                    required
+                  />
+                </div>
+                <div class="input-container email-box">
+                  <label class="label" for="email">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="e.g. eniola@example.com"
+                    required
+                  />
+                </div>
+                <textarea name="message" id="message"></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>&COPY; 2025 Enilolade</p>
+      </div>
+    </footer>
+  </body>
+</html>
